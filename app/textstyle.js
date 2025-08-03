@@ -41,7 +41,7 @@ const TextType = ({
   };
 
   const getCurrentTextColor = () => {
-    if (textColors.length === 0) return "#ffffff";
+    if (textColors.length === 0) return "#000000"; // Default to black if no colors provided
     return textColors[currentTextIndex % textColors.length];
   };
 
