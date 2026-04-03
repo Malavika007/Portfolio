@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex justify-center py-30">
+    <main className="flex justify-center py-30 px-10">
       <section>
       {/* Hero */}
       <img src={"/mg.png"} className="w-30"/>
