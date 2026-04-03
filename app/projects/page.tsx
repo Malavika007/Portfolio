@@ -2,7 +2,8 @@ import Link from "next/link";
 
 export default function ProjectsPage() {
   return (
-    <main className="space-y-10">
+        <main className="flex justify-center py-30 px-10">
+
       <Link href="/" className="text-neutral-500 hover:text-white">← Home</Link>
 
       <h1 className="text-3xl font-bold">Projects</h1>
