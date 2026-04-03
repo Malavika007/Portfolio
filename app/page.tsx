@@ -56,7 +56,7 @@ export default function Home() {
         <h1 className="text-2xl font-semibold mb-3">Get in touch</h1>
         <ul className="leading-relaxed max-w-xl font-sans list-disc">
           <li><a className="text-blue-600" href="https://www.linkedin.com/in/malavika-g-9aa515374/">LinkedIn</a></li>
-          <li><a className="text-blue-600" href="https://github.com/Malavika007">Github</a></li>
+          {/* <li><a className="text-blue-600" href="https://github.com/Malavika007">Github</a></li> */}
           <li><a className="text-blue-600" href="mailto:malavikagmalu@gmail.com">malavikagmalu@gmail.com</a></li>
 
         </ul>
