@@ -25,25 +25,24 @@ export default function ProjectsPage() {
       <h1 className="text-3xl font-bold">Projects</h1>
       <p>Projects I've done along the way</p>
       <div className="space-y-4">
-        {/* <Project
-          title="Puzzle Game"
-          desc="A mechanics-heavy puzzle game built with Godot."
-        />
         <Project
-          title="SideHustl"
-          desc="A student marketplace for services and gigs."
-        /> */}
+          title="Discord Bot"
+          desc="A simple discord bot made with python. You can play a little guessing game with it and ask questions. Uses Groq API."
+          link="https://github.com/Malavika007/discord_bot"
+        />
+        
       </div>
       </section>
     </main>
   );
 }
 
-function Project({ title, desc }: { title: string; desc: string }) {
+function Project({ title, desc, link }: { title: string; desc: string; link: string }) {
   return (
-    <div className="border border-neutral-800 rounded-2xl p-5">
-      <h3 className="font-semibold text-lg">{title}</h3>
-      <p className="text-neutral-400 text-sm mt-1">{desc}</p>
+    <div className="border border-black rounded-2xl p-5 mt-10 bg-blue-200 hover:bg-blue-300 font-mono">
+      <h3 className="font-semibold text-lg font-mono">{title}</h3>
+      <p className="text-black text-sm mt-1 font-serif">{desc}</p>
+      <a href={link}>View project →</a>
     </div>
   );
 }
